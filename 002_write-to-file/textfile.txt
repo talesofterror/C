@@ -1,0 +1,7 @@
+Hello. This is a C program that prints the contents of a file (this very file, in fact) to the terminal. Then it prints some variable assignments I'm using to try and understand pointers. 
+
+Questions: 
+- Do line breaks work? 
+- What now?
+
+*one compile later* Line breaks work. 
