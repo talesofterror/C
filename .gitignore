@@ -1,0 +1,12 @@
+# Meson build directories
+build/
+builddir/
+.cache/
+
+# Meson subproject source directories (track .wrap files)
+/subprojects/*
+!/subprojects/*.wrap
+
+# Other common ignores
+*.log
+*.tmp
