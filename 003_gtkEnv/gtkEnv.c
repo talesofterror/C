@@ -6,6 +6,7 @@ print_hello (GtkWidget *widget,
              gpointer   data)
 {
   g_print ("Hello World\n");
+	system("echo Sup");
 }
 
 static void
@@ -37,8 +38,6 @@ main (int    argc,
   g_signal_connect (app, "activate", G_CALLBACK (activate), NULL);
   status = g_application_run (G_APPLICATION (app), argc, argv);
   g_object_unref (app);
-
-	system("bash | cat 'sup'");
 
   return status;
 }
